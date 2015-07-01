@@ -1,5 +1,3 @@
-# README #
-
 ### Ejemplo de directiva para un switch usando: ###
 
 * Express
