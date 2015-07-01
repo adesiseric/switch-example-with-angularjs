@@ -1,0 +1,6 @@
+.switch(
+    ng-click="toggle()",
+    ng-class="{on: value, off: !value}"
+)
+    span(ng-class="{'switch-on': value, 'switch-off': !value}")
+    span.switch-text {{text}}

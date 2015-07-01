@@ -1,0 +1,21 @@
+
+br
+.row
+    .col-xs-6.text-right
+        label Deseo usar mis datos anteriores
+    .col-xs-3
+        div(
+            switch="",
+            ng-model="ctrl.model.data",
+            ng-click="ctrl.changeData(ctrl.model.data)"
+        )
+
+br
+.row
+    .col-xs-6.text-right
+        label Estoy en horario
+    .col-xs-3
+        switch(
+            ng-model="ctrl.model.time",
+            ng-click="ctrl.changeTime(ctrl.model.time)"
+        )
