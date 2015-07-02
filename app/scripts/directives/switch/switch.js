@@ -2,7 +2,7 @@
 
     'use strict';
 
-    function Switch ($log) {
+    function Switch() {
 
         return {
             restrict: 'EA',
