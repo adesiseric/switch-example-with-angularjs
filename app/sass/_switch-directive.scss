@@ -1,3 +1,9 @@
+$black: #333333;
+$gray: #DDDDDD;
+$softGreen: #00BF5D;
+$strongGreen: #009966;
+$white: #ffffff;
+
 .switch {
     border-radius: 50px;
     cursor: pointer;
@@ -6,15 +12,15 @@
     padding: 2px;
 
     &.on {
-        background-color: #fff;
-        border: 1px solid #00BF5D;
-        color: #00BF5D;
+        background-color: $white;
+        border: 1px solid $softGreen;
+        color: $softGreen;
     }
 
     &.off {
-        background-color: #DDD;
-        border: 1px solid #009966;
-        color: #333;
+        background-color: $gray;
+        border: 1px solid $strongGreen;
+        color: $black;
     }
 }
 
@@ -29,14 +35,14 @@
 
 
 .switch-on {
-    background-color: #00BF5D;
+    background-color: $softGreen;
     float: right;
 }
 
 
 
 .switch-off {
-    background-color: #009966;
+    background-color: $strongGreen;
     float: left;
 }
 

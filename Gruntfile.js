@@ -74,16 +74,6 @@
                         extDot: 'last'
                     }]
                 },
-                // templates: {
-                //     files: [{
-                //         expand: true,
-                //         cwd: '<%=appConfig.app%>/scripts/templates',
-                //         src: ['{,**/}*.jade'],
-                //         dest: '<%=appConfig.build%>/scripts/templates',
-                //         ext: '.html',
-                //         extDot: 'last'
-                //     }]
-                // },
                 directives: {
                     files: [{
                         expand: true,

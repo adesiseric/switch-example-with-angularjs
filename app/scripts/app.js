@@ -7,7 +7,6 @@
         // Ruta, template
         var routes = [
             ['home', 'home'],
-            ['test', 'test'],
             ['404', '404']
         ];
 
